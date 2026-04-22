@@ -1,0 +1,18 @@
+# --- AI Speech & Audio ---
+whisperx==3.8.5          # Optimized Whisper for faster inference & word-level timestamps
+openai-whisper==20240106 # Core OpenAI Whisper fallback
+sounddevice==0.4.6       # Real-time audio stream handling
+pydub==0.25.1            # Audio file manipulation
+
+# --- OS Automation & Logic ---
+PyAutoGUI==0.9.54        # Core mouse/keyboard automation
+pyscreeze==0.1.30        # Support library for screen recognition
+python-dotenv==1.0.1     # Managing API keys (Spotify/Local)
+
+# --- Music & API ---
+spotipy==2.24.0          # The industry standard for Spotify API
+requests==2.31.0         # General API handling
+
+# --- Core Utilities ---
+numpy<2.0.0              # Fast math for audio processing (version lock for compatibility)
+torch==2.2.1             # Required backend for Whisper (ensure CUDA support for GPU)

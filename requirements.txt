@@ -8,11 +8,12 @@ pydub==0.25.1            # Audio file manipulation
 PyAutoGUI==0.9.54        # Core mouse/keyboard automation
 pyscreeze==0.1.30        # Support library for screen recognition
 python-dotenv==1.0.1     # Managing API keys (Spotify/Local)
+pyscreeze==0.1.30
 
 # --- Music & API ---
 spotipy==2.24.0          # The industry standard for Spotify API
 requests==2.31.0         # General API handling
-python-dotenv
+python-dotenv==1.0.1
 
 # --- Core Utilities ---
 numpy<2.0.0              # Fast math for audio processing (version lock for compatibility)
